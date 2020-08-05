@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useLayoutEffect } from 'react';
 import { NavLink } from "react-router-dom";
 import { withRouter } from 'react-router-dom';
 import axios from 'axios';
@@ -23,24 +23,25 @@ componentDidMount(){
     'bill_id':bill
   }))
       .then(res => {
-        
- 
-        
-        if(res.data[0].b_status == "ดำเนินการ") {
-        this.setState({
-          bill_status:res.data[0].b_status
-        });
-       const table = this.props.match.params.table;
-          
-          localStorage.setItem('table_id',table); 
-          this.setState({
-            table_id:localStorage.getItem('table_id')
-          })
-
-      }else{
-        this.props.history.push('/default');
-      }
-
+        console.log(res.data[0].b_status);
+        if(res.data[0] != undefined){
+          if(res.data[0].b_status == "ดำเนินการ"){
+            this.setState({
+              bill_status:res.data[0].b_status
+            });
+           const table = this.props.match.params.table;
+              
+              localStorage.setItem('table_id',table); 
+              this.setState({
+                table_id:localStorage.getItem('table_id')
+              })
+          }else{
+            this.props.history.push('/default');
+          }
+        }else{
+          this.props.history.push('/default');
+        }
+     
       }
       )
 
@@ -52,13 +53,14 @@ componentDidMount(){
         return(
             <>
             <center>
+            
+
             <Card style={{width: '20rem' , marginTop: '50px'}}>
+
         <CardBody>
      <NavLink  to="/selectmenu">
         <CardImg top src="https://myseshabu.com/image/logo.jpg" alt="welcome" />
-        
-        
-          </NavLink>
+     </NavLink>
         </CardBody>
         </Card>
         </center>
