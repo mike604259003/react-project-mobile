@@ -58,6 +58,7 @@ componentDidMount(){
             <Card style={{width: '20rem' , marginTop: '50px'}}>
 
         <CardBody>
+        <CardTitle><h5>โต๊ะ {" "+this.state.table_id}</h5></CardTitle>
      <NavLink  to="/selectmenu">
         <CardImg top src="https://myseshabu.com/image/logo.jpg" alt="welcome" />
      </NavLink>
