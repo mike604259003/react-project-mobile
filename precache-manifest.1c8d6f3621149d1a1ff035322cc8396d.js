@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37141413eef59cb8839c36b013cdf421",
+    "revision": "7e55fb6da685a3adff91b94deaa13958",
     "url": "/react-project-mobile/index.html"
   },
   {
-    "revision": "98c72e0c6424199c9c6f",
+    "revision": "09af63780c2939ef59e1",
     "url": "/react-project-mobile/static/css/main.329e6fc9.chunk.css"
   },
   {
-    "revision": "6875c71f038d49f6af60",
-    "url": "/react-project-mobile/static/js/2.3abdd5e7.chunk.js"
+    "revision": "e4565b4a6e98e7529c41",
+    "url": "/react-project-mobile/static/js/2.79852655.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/react-project-mobile/static/js/2.3abdd5e7.chunk.js.LICENSE.txt"
+    "url": "/react-project-mobile/static/js/2.79852655.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "98c72e0c6424199c9c6f",
-    "url": "/react-project-mobile/static/js/main.3173e840.chunk.js"
+    "revision": "09af63780c2939ef59e1",
+    "url": "/react-project-mobile/static/js/main.21f7afa3.chunk.js"
   },
   {
     "revision": "046442c4921b290cd955",
