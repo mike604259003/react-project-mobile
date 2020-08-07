@@ -26,25 +26,16 @@ componentDidMount() {
     'bill_id':bill
   }))
       .then(res => {
-        console.log(res.data[0].b_status);
-        if(res.data[0] != undefined){
-          if(res.data[0].b_status == "ดำเนินการ"){
-            this.setState({
-              bill_status:res.data[0].b_status
-            });
-              this.setState({
-                table_id:localStorage.getItem('table_id')
-              })
-          }else{
-            this.props.history.push('/default');
-          }
-        }else{
-          this.props.history.push('/default');
-        }
-     
+        
+      
+        if(res.data[0].b_status == "ดำเนินการ") {
+       
+      }else{
+        this.props.history.push('/default');
       }
-      )
+      }
 
+      )
 
 
     axios.get(API('getAllCategory'))

@@ -38,7 +38,7 @@ class Header extends React.Component{
         <Container>
           <div className="navbar-translate">
             <NavbarBrand href="#pablo" onClick={e => e.preventDefault()}>
-            <img src="https://myseshabu.com/image/shabulogo.png" alt="logo" width={50} height={50} style={{marginRight:"20px"}}/>Shabu
+            <i className="fa fa-ravelry" aria-hidden="true" style={{color: "#FFF"}}> </i> Shabu
             </NavbarBrand>
             <Link to="/cart">
             <Button style={{border:"none" , marginRight:'20px'}} outline>
