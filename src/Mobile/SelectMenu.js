@@ -80,7 +80,7 @@ componentDidMount() {
               <div className="col-6" key={i}>
               <Link className="link" to={{pathname:"/menu", state:{id:obj.c_id,name:obj.c_name}}}>
               <Card className="text-center">
-                <img style={{marginLeft:'55px',marginTop:'25px',marginBottom:'15px'}} src={"assets/img/icons/"+obj.c_icons} width = "50px" height = "50px"  alt=""/>
+                <img style={{marginLeft:'55px',marginTop:'25px',marginBottom:'15px'}} src={obj.c_icons} width = "50px" height = "50px"  alt=""/>
                
                 <p className="mb-2 text-muted" style={{fontSize:"10px",textAlign:'center'}}>{obj.c_name}</p>
                

@@ -101,7 +101,7 @@ componentDidMount() {
               <CardBody>
               <small className="text-muted" style={{fontSize:'16px'}}>{obj.f_name}</small>
                   
-                  <CardImg top src={"assets/img/catagory/"+obj.f_img} alt="..." style={{width:'150px',height:'150px'}}/>
+                  <CardImg top src={obj.f_img} alt="..." style={{width:'150px',height:'150px'}}/>
                 
                   <Button  color="neutral">
           <i className="fa fa-book" aria-hidden="true"></i>
