@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37141413eef59cb8839c36b013cdf421",
+    "revision": "3fb042ce9dda248860f53a07fa47842d",
     "url": "/react-project-mobile/index.html"
   },
   {
-    "revision": "98c72e0c6424199c9c6f",
-    "url": "/react-project-mobile/static/css/main.329e6fc9.chunk.css"
+    "revision": "5f3f9f85f3ca21f15139",
+    "url": "/react-project-mobile/static/css/main.20359ade.chunk.css"
   },
   {
     "revision": "6875c71f038d49f6af60",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-project-mobile/static/js/2.3abdd5e7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "98c72e0c6424199c9c6f",
-    "url": "/react-project-mobile/static/js/main.3173e840.chunk.js"
+    "revision": "5f3f9f85f3ca21f15139",
+    "url": "/react-project-mobile/static/js/main.7a07f94c.chunk.js"
   },
   {
     "revision": "046442c4921b290cd955",
